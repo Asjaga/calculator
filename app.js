@@ -1,9 +1,9 @@
 let boxes = document.querySelectorAll(".box");
 let msg =  document.querySelector(".msg-screen");
-let msg_value = msg.innerText;
+let msg2 =  document.querySelector(".msg-screen2");
+msg2.innerText = "";
 
-
-let expression ="0";
+let expression ="";
 
 
 function shortNum(num) {
@@ -15,27 +15,32 @@ function shortNum(num) {
 }
 
 boxes.forEach((box) =>{
-    box.addEventListener("click", (evt)=>{
+    box.addEventListener("click", ()=>{
         if (box.id == "="){
             try{
-                msg.innerText = shortNum(eval(expression));
+                msg2.innerText = shortNum(eval(expression));
+                expression = eval(expression);
             }
             catch(err){
-                msg.innerText = "Error";
+                msg2.innerText = "Error";
             }
-            expression = eval(expression);
         }
         else if (box.id == "c"){
-            msg.innerText = "0";
-            expression = "0";
+            msg2.innerText = "";
+            msg2.classList.add("dis");
+            msg.classList.remove("dis");           
+            expression = "";
         }
         else if (box.id ==="%"){
-            msg.innerText = expression/100;
+            msg2.innerText = expression/100;
             expression = expression/100;
         }
-        else {
+        else { 
+                msg2.classList.remove("dis");
+                msg.classList.add("dis");
                 expression = expression + box.id;
-                msg.innerText = msg.innerText + box.innerText;
+                msg2.innerText = msg2.innerText + box.innerText;
+
         }
     })
 })

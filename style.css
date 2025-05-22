@@ -30,6 +30,13 @@ body{
     padding-right: 1.2rem;
     font-size: 4rem;
 }
+.msg-screen2{
+    margin-top: 5.5rem;
+    text-align: right;
+    font-size: 2.5rem;
+    padding-right: 1.2rem;
+    font-size: 4rem;
+}
 
 .boxes{
     display: flex;
@@ -87,10 +94,14 @@ p{
 
     .msg-screen {
         font-size: 3rem;
+        margin-top: 7.9rem;
+        padding-right: 2.2rem;
+    }
+    .msg-screen2 {
+        font-size: 3rem;
         margin-top: 08.5rem;
         padding-right: 2.2rem;
     }
-
     .box {
         width: 20vw;
         height: 09.7vh;
@@ -100,7 +111,7 @@ p{
 
 
     h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         margin-top: 1.2rem;
     }
 
@@ -108,4 +119,9 @@ p{
         font-size: 1.1rem;
         margin-top: 0.7rem;
     }
+}
+
+
+.dis{
+    display: none;
 }

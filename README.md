@@ -68,6 +68,7 @@ Try it out on mobile for a full-screen experience!
 ## ✍️ Author
 
 **Aakash Singh**
+
 © Made with ❤️ by Aakash Singh
 
 ---

@@ -33,10 +33,6 @@ boxes.forEach((box) =>{
             msg.innerText = expression/100;
             expression = expression/100;
         }
-        else if (box.id == "00"){
-            msg.innerText = "00";
-            expression = "0";
-        }
         else {
                 expression = expression + box.id;
                 msg.innerText = msg.innerText + box.innerText;

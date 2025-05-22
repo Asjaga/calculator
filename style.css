@@ -93,15 +93,15 @@ p{
 
     .msg-screen {
         font-size: 3rem;
-        margin-top: 09rem;
+        margin-top: 07rem;
         padding-right: 2.2rem;
     }
 
     .box {
-        width: 19vw;
-        height: 09vh;
+        width: 22vw;
+        height: 11vh;
         font-size: 1.8rem;
-        margin: 0.5rem;
+        margin: 0.2rem;
     }
 
     .padd {
@@ -111,7 +111,7 @@ p{
     }
 
     h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         margin-top: 1.2rem;
     }
 

@@ -35,18 +35,12 @@ boxes.forEach((box) =>{
             msg2.innerText = expression/100;
             expression = expression/100;
         }
-        else {
-            console.log(expression.length)
-            if (expression.length<12) {
+        else { 
                 msg2.classList.remove("dis");
                 msg.classList.add("dis");
                 expression = expression + box.id;
                 msg2.innerText = msg2.innerText + box.innerText;
-            }
 
-            else{
-                msg2.innerText = "Not Allowed"
-            }
         }
     })
 })

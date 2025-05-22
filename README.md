@@ -38,7 +38,7 @@ A stylish, responsive calculator built using **HTML, CSS, and JavaScript**, opti
 1. Clone this repository or download the files:
    ```bash
    git clone https://github.com/your-username/calculator-app.git
-````
+
 
 2. Open the `index.html` file in any browser.
 

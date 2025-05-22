@@ -59,6 +59,7 @@ calculator-app/
 ## 📸 Demo
 
 Try it out on mobile for a full-screen experience!
+
 ![image](https://github.com/user-attachments/assets/8e777c6e-22b8-4616-aa59-88d6f95920e9)
 
 

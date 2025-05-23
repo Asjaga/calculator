@@ -3,7 +3,7 @@
     padding: 0;
 }
 h1{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
 }
 body{
     background-color:#F2F2F2 ;
@@ -21,21 +21,35 @@ body{
     height: 85vmin;
     border-radius:2rem ;
     padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .msg-screen{
-    margin-top: 5.5rem;
+    margin-top: 4rem;
+    height: 5rem;
+    width: 19rem;
+    line-height: 5rem;
     text-align: right;
-    font-size: 2.5rem;
     padding-right: 1.2rem;
+    background-color: black;
     font-size: 4rem;
+    color: white;
+    border-radius: 1rem;
 }
 .msg-screen2{
-    margin-top: 5.5rem;
+    margin-top: 4rem;
+    height: 5rem;
+    width: 19rem;
+    line-height: 5rem;
     text-align: right;
-    font-size: 2.5rem;
     padding-right: 1.2rem;
+    background-color: black;
     font-size: 4rem;
+    color: white;
+    border-radius: 1rem;
 }
 
 .boxes{
@@ -87,19 +101,20 @@ p{
 
     .calculator {
         width: 100vw;
-        height: 100vh;
+        height: 110vh;
         border-radius: 0;
         padding: 0.5rem;
+        margin-bottom: 5rem;
     }
 
     .msg-screen {
-        font-size: 3rem;
-        margin-top: 7.9rem;
+        font-size: 3.5rem;
+        margin-top: 0rem;
         padding-right: 2.2rem;
     }
     .msg-screen2 {
-        font-size: 3rem;
-        margin-top: 7.9rem;
+        font-size: 3.5rem;
+        margin-top: 0rem;
         padding-right: 2.2rem;
     }
     .box {
@@ -112,7 +127,7 @@ p{
 
     h1 {
         font-size: 1.3rem;
-        margin-top: 1.2rem;
+        margin-bottom: 5rem;
     }
 
     p {
